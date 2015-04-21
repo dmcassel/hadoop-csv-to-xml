@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!-- Used with com.marklogic.mapreduce.examples.ContentLoader.class -->
+<configuration>
+  <property>
+    <name>mapreduce.marklogic.output.batchsize</name>
+    <value>100</value>
+  </property>
+  <property>
+    <name>mapreduce.marklogic.output.username</name>
+    <value>admin</value>
+  </property>
+  <property>
+    <name>mapreduce.marklogic.output.password</name>
+    <value>admin</value>
+  </property>
+  <property>
+    <name>mapreduce.marklogic.output.content.directory</name>
+    <value>/rdbms/</value>
+  </property>
+  <property>
+    <name>mapreduce.marklogic.output.host</name>
+    <value>ec2-54-183-217-104.us-west-1.compute.amazonaws.com</value>
+  </property>
+  <property>
+    <name>mapreduce.marklogic.output.port</name>
+    <value>8041</value>
+  </property>
+  <property>
+    <name>mapred.reduce.tasks</name>
+    <value>0</value>
+  </property>
+  <property>
+    <name>mapred.map.tasks.speculative.execution</name>
+    <value>false</value>
+  </property>
+</configuration>
